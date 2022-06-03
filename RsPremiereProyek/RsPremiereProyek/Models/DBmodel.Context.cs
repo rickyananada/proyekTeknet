@@ -13,10 +13,10 @@ namespace RsPremiereProyek.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DbproyekteknetEntities : DbContext
+    public partial class DbproyekteknetEntities1 : DbContext
     {
-        public DbproyekteknetEntities()
-            : base("name=DbproyekteknetEntities")
+        public DbproyekteknetEntities1()
+            : base("name=DbproyekteknetEntities1")
         {
         }
     

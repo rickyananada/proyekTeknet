@@ -33,5 +33,10 @@ namespace RsPremiereProyek.Models
         [NotMapped]
         [Compare("PasswordUs", ErrorMessage = "Confirm password doesn't match, Type Again !")]
         public string RePasswordUs { get; set; }
+
+        [Required(ErrorMessage = "This Field is required")]
+        [Display(Name = "Role")]
+        public string Role { get; set; }
+
     }
 }

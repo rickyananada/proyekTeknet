@@ -7,6 +7,7 @@
     <Property Name="IdUs" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="UsernameUs" Type="varchar" MaxLength="50" />
     <Property Name="PasswordUs" Type="varchar" MaxLength="255" />
+    <Property Name="Role" Type="varchar" MaxLength="255" />
   </EntityType>
   <EntityContainer Name="DbproyekteknetModelStoreContainer">
     <EntitySet Name="TBLUserInfo" EntityType="Self.TBLUserInfo" Schema="dbo" store:Type="Tables" />

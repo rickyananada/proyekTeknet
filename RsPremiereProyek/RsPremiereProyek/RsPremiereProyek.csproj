@@ -163,8 +163,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Models\DBmodel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DBmodel.Context.cs</LastGenOutput>
       <DependentUpon>DBmodel.edmx</DependentUpon>
+      <LastGenOutput>DBmodel.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\DBmodel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

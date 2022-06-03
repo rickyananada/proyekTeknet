@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="DbproyekteknetModelStoreContainer" CdmEntityContainer="DbproyekteknetEntities">
+  <EntityContainerMapping StorageEntityContainer="DbproyekteknetModelStoreContainer" CdmEntityContainer="DbproyekteknetEntities1">
     <EntitySetMapping Name="TBLUserInfoes">
       <EntityTypeMapping TypeName="DbproyekteknetModel.TBLUserInfo">
         <MappingFragment StoreEntitySet="TBLUserInfo">
           <ScalarProperty Name="IdUs" ColumnName="IdUs" />
           <ScalarProperty Name="UsernameUs" ColumnName="UsernameUs" />
           <ScalarProperty Name="PasswordUs" ColumnName="PasswordUs" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

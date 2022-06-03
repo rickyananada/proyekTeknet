@@ -8,7 +8,7 @@ namespace RsPremiereProyek.Controllers
 {
     public class HomeController : Controller
     {
-        DbproyekteknetEntities db = new DbproyekteknetEntities();
+        DbproyekteknetEntities1 db = new DbproyekteknetEntities1();
 
         // GET: Home
         public ActionResult Index()
